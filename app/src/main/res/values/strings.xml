@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UI task</string>
+    <string name="hi_john">Hi john,</string>
+    <string name="your_redemptions">your Redemptions :</string>
+    <string name="lifeStyle">Life Style</string>
+    <string name="bigBazaar">\"Big Bazaar \"</string>
+    <string name="pts1">200 pts</string>
+    <string name="pts2">100 pts</string>
+    <string name="diana">Diana</string>
+    <string name="merlin">Merlin</string>
+    <string name="mike">Mike</string>
+    <string name="jordan">Jordan</string>
+    <string name="karan">karan</string>
+    <string name="diana2">Diana</string>
+    <string name="merlin2">Merlin</string>
+    <string name="mike2">Mike</string>
+    <string name="jordan2">Jordan</string>
+    <string name="contact">Contacts</string>
+    <string name="from2">Instagram</string>
+    <string name="from3">facebook</string>
+    <string name="from4">Contacts</string>
+    <string name="from5">facebook</string>
+    <string name="from6">Contacts</string>
+    <string name="from7">Instagram</string>
+    <string name="from8">facebook</string>
+    <string name="from9">Contacts</string>
+</resources>

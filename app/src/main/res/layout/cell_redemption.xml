@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="80dp" android:background="@drawable/redeem_cell_bg"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:id="@+id/iv_redeemBrand_cell"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Big Bazaar"
+        android:layout_toRightOf="@id/iv_redeemBrand_cell"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:id="@+id/tv_redeemBrandName_cell"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200 pts"
+        android:layout_below="@id/tv_redeemBrandName_cell"
+        android:layout_toRightOf="@id/iv_redeemBrand_cell"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_redeemPoints_cell"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Redeem"
+        android:textColor="#fff"
+        android:id="@+id/btn_redeem_cell"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/redeembtn_bg"/>
+
+</RelativeLayout>
